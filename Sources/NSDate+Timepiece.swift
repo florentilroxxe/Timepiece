@@ -33,7 +33,7 @@ public func == (lhs: NSDate, rhs: NSDate) -> Bool {
 
 // MARK: - Comparable
 
-extension NSDate: Comparable {}
+extension NSDate {}
 
 public func < (lhs: NSDate, rhs: NSDate) -> Bool {
     return lhs.compare(rhs) == .OrderedAscending
